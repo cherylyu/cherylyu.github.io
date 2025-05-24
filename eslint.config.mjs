@@ -12,5 +12,5 @@ export default withNuxt({
     'no-console': 'warn',
     'no-debugger': 'warn'
   },
-  ignores: ['node_modules', '.nuxt', 'dist']
+  ignores: ['node_modules', '.github', '.nuxt', 'dist']
 });
