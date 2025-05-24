@@ -1,0 +1,5 @@
+:root {
+  --font-sans: Rubik, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-mint-700: oklch(0.72 0.11 200);
+}

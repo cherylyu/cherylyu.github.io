@@ -6,6 +6,18 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/image',
-    '@nuxtjs/tailwindcss'
-  ]
+    '@nuxtjs/tailwindcss',
+  ],
+  css: [
+    '@/assets/css/variables.css',
+  ],
+  fonts: {
+    families: [
+      {
+        name: 'Rubik',
+        weights: [400, 500, 600, 700, 800],
+        styles: ['normal'],
+      },
+    ],
+  },
 })
