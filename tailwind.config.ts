@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -6,20 +6,20 @@ const config: Config = {
     './layouts/**/*.{vue,js,ts}',
     './pages/**/*.{vue,js,ts}',
     './plugins/**/*.{js,ts}',
-    './app.vue',
+    './app.vue'
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: 'var(--font-sans)',
+        sans: 'var(--font-sans)'
       },
       colors: {
         mint: {
           500: 'var(--color-mint-500)',
-          700: 'var(--color-mint-700)',
-        },
-      },
-    },
-  },
-}
-export default config
+          700: 'var(--color-mint-700)'
+        }
+      }
+    }
+  }
+};
+export default config;
