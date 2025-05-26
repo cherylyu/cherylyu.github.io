@@ -4,9 +4,7 @@
     <Navbar />
     <main>
       <h1 class="hidden">Cheryl Yu's Portfolio</h1>
-      <section id="home" class="min-h-screen bg-white flex items-center justify-center">
-        <h2 class="text-4xl md:text-6xl font-bold">Home</h2>
-      </section>
+      <HomeSection />
       <section id="about" class="min-h-screen bg-gray-100 flex items-center justify-center">
         <h2 class="text-4xl md:text-6xl font-bold">About</h2>
       </section>
