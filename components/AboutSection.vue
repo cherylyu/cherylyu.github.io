@@ -26,7 +26,7 @@
         <!-- Right Column -->
         <div class="w-full md:w-1/2 flex justify-center items-center relative">
           <div class="relative w-full aspect-square mx-4">
-            <img src="~/assets/img/mint-curve-middle.svg" alt="" class="w-full h-full" />
+            <img src="~/assets/img/mint-curve-middle.svg" alt="" class="w-full h-full animate-float" />
             <img src="~/assets/img/girl.png" alt="Cheryl" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/3" />
             <img src="~/assets/img/piano.png" alt="Piano" class="absolute top-[5%] right-[20%] w-1/5" />
             <img src="~/assets/img/jogging.png" alt="Jogging" class="absolute top-[40%] right-[-2%] w-1/5" />

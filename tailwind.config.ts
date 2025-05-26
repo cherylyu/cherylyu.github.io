@@ -26,6 +26,16 @@ const config: Config = {
           200: 'var(--color-mint-200)',
           300: 'var(--color-mint-300)'
         }
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '25%': { transform: 'translateY(-30px)' },
+          '75%': { transform: 'translateY(30px)' }
+        }
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite'
       }
     }
   }
