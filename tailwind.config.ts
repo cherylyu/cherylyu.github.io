@@ -30,8 +30,8 @@ const config: Config = {
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '25%': { transform: 'translateY(-30px)' },
-          '75%': { transform: 'translateY(30px)' }
+          '25%': { transform: 'translateY(-20px)' },
+          '75%': { transform: 'translateY(20px)' }
         }
       },
       animation: {
