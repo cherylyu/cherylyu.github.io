@@ -1,13 +1,11 @@
 <template>
-  <div class="font-sans">
+  <div class="font-sans text-slate-700">
     <NuxtRouteAnnouncer />
     <Navbar />
     <main>
       <h1 class="hidden">Cheryl Yu's Portfolio</h1>
       <HomeSection />
-      <section id="about" class="min-h-screen bg-gray-100 flex items-center justify-center">
-        <h2 class="text-4xl md:text-6xl font-bold">About</h2>
-      </section>
+      <AboutSection />
       <section id="works" class="min-h-screen bg-white flex items-center justify-center">
         <h2 class="text-4xl md:text-6xl font-bold">Works</h2>
       </section>

@@ -10,7 +10,7 @@
         </div>
 
         <div class="flex flex-col justify-center items-center w-full md:w-1/3 md:items-start">
-          <h2 class="text-4xl md:text-5xl lg:text-6xl text-center md:text-left text-slate-700 font-bold leading-tight">
+          <h2 class="text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-bold leading-tight">
             Hello!<br />
             I'm Cheryl.
           </h2>
