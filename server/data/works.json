@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Project A",
+    "images": ["example.png", "example.png", "example.png", "example.png", "example.png"],
+    "skills": ["JavaScript", "React", "Node.js"]
+  },
+  {
+    "title": "Project B Lorem Ipsum Dolor",
+    "images": ["example.png", "example.png", "example.png", "example.png", "example.png", "example.png", "example.png", "example.png"],
+    "skills": ["Python", "Django", "PostgreSQL"]
+  },
+  {
+    "title": "Project C Vestibulum Tempor Posuere",
+    "images": ["example.png", "example.png", "example.png"],
+    "skills": ["Java", "Spring Boot", "MySQL"]
+  }
+]

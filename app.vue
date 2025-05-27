@@ -6,9 +6,7 @@
       <h1 class="hidden">Cheryl Yu's Portfolio</h1>
       <HomeSection />
       <AboutSection />
-      <section id="works" class="min-h-screen bg-white flex items-center justify-center">
-        <h2 class="text-4xl md:text-6xl font-bold">Works</h2>
-      </section>
+      <WorksSection />
       <section id="playground" class="min-h-screen bg-gray-100 flex items-center justify-center">
         <h2 class="text-4xl md:text-6xl font-bold">Playground</h2>
       </section>
