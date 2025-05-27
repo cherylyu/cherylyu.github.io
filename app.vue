@@ -7,12 +7,8 @@
       <HomeSection />
       <AboutSection />
       <WorksSection />
-      <section id="playground" class="min-h-screen bg-gray-100 flex items-center justify-center">
-        <h2 class="text-4xl md:text-6xl font-bold">Playground</h2>
-      </section>
-      <section id="contact" class="min-h-screen bg-white flex items-center justify-center">
-        <h2 class="text-4xl md:text-6xl font-bold">Contact</h2>
-      </section>
+      <PlaygroundSection />
+      <ContactSection />
     </main>
   </div>
 </template>

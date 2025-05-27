@@ -22,7 +22,7 @@
           <a href="#home" class="text-gray-800 hover:text-gray-600">Home</a>
           <a href="#about" class="text-gray-800 hover:text-gray-600">About</a>
           <a href="#works" class="text-gray-800 hover:text-gray-600">Works</a>
-          <a href="#playground" class="text-gray-800 hover:text-gray-600">Playground</a>
+          <a href="#playground" class="text-gray-800 hover:text-gray-600 hidden">Playground</a>
           <a href="#contact" class="text-gray-800 hover:text-gray-600">Contact</a>
         </div>
       </div>
@@ -33,7 +33,7 @@
           <a href="#home" @click="isMobileMenuOpen = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-50">Home</a>
           <a href="#about" @click="isMobileMenuOpen = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-50">About</a>
           <a href="#works" @click="isMobileMenuOpen = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-50">Works</a>
-          <a href="#playground" @click="isMobileMenuOpen = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-50">Playground</a>
+          <a href="#playground" @click="isMobileMenuOpen = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-50 hidden">Playground</a>
           <a href="#contact" @click="isMobileMenuOpen = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-50">Contact</a>
         </div>
       </div>
