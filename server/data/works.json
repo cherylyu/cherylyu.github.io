@@ -1,17 +1,69 @@
 [
   {
-    "title": "Project A",
-    "images": ["example.png", "example.png", "example.png", "example.png", "example.png"],
-    "skills": ["JavaScript", "React", "Node.js"]
+    "title": "DR Pre-built Checkout",
+    "description": "This is a fully JavaScript-based, embedded, customizable checkout page for client's e-commerce websites. Integrated the company's latest APIs, supporting multiple payment methods, multi-language, and cross-border tax data processing.",
+    "images": ["pbc_01.png", "pbc_02.png", "pbc_03.png", "pbc_04.png", "pbc_05.png", "pbc_06.png", "pbc_07.png"],
+    "skills": ["JavaScript (React/Vue)", "CSS (Sass)", "MUI", "Jest", "Testing Library"]
   },
   {
-    "title": "Project B Lorem Ipsum Dolor",
-    "images": ["example.png", "example.png", "example.png", "example.png", "example.png", "example.png", "example.png", "example.png"],
-    "skills": ["Python", "Django", "PostgreSQL"]
+    "title": "DR WordPress Plugin",
+    "description": "This is an open-source plugin that integrates the company's APIs, enabling clients to quickly set up their e-commerce websites using WordPress and customize themes. It supports robust checkout features, including a complete checkout flow, promo code functionality, cross-selling and up-selling, payments, multi-language/multi-currency, and product/user management.",
+    "images": ["drwp_01.png", "drwp_02.png", "drwp_03.png", "drwp_04.png", "drwp_05.png", "drwp_06.png"],
+    "skills": ["JavaScript (jQuery/React)", "CSS (Sass)", "npm", "PHP (WordPress)", "MySQL", "Cypress"]
   },
   {
-    "title": "Project C Vestibulum Tempor Posuere",
-    "images": ["example.png", "example.png", "example.png"],
-    "skills": ["Java", "Spring Boot", "MySQL"]
+    "title": "My Old Portfolio",
+    "description": "This is my old portfolio, completed around 2017. It was developed using Ruby on Rails and the built files are hosted on AWS S3. The homepage uses parallax scrolling technique, the Portfolio page includes some engaging animations.",
+    "images": ["cyu_01.png", "cyu_02.png", "cyu_03.png"],
+    "skills": ["JavaScript (jQuery)", "CSS (Sass)", "Ruby on Rails", "PostgreSQL", "AWS S3"],
+    "link": "https://s3.ap-northeast-1.amazonaws.com/cherylyu.com/index.html"
+  },
+  {
+    "title": "RGA Online & In-house Quotation Systems V2",
+    "description": "These are UK-based property insurance quotation systems with robust features, supported by sophisticated calculation logic. It adopts a modern front-end and back-end separation architecture, with the front-end built as a Single Page Application (SPA) using Angular. I was responsible for the front-end architecture and UI/UX design.",
+    "images": ["raam_ng_01.jpg", "raam_ng_02.jpg", "raam_ng_03.jpg", "raam_ng_04.jpg", "raam_ng_05.jpg", "raam_ng_06.jpg", "raam_ng_07.jpg", "raam_ng_08.jpg"],
+    "skills": ["JavaScript (Angular)", "CSS (Sass)", "npm", "Jasmine"]
+  },
+  {
+    "title": "RGA Online & In-house Quotation Systems V1",
+    "description": "These are UK-based property insurance quotation systems designed to serve both general users and insurance brokers. It offers robust features, including various types of policy calculations, broker management, and report generation, supported by sophisticated calculation logic.",
+    "images": ["raam_ror_01.jpg", "raam_ror_02.jpg", "raam_ror_03.jpg", "raam_ror_04.jpg", "raam_ror_05.jpg", "raam_ror_06.jpg", "raam_ror_07.jpg", "raam_ror_08.jpg"],
+    "skills": ["CoffeeScript (jQuery)", "CSS (Sass)", "Ruby on Rails", "PostgreSQL"]
+  },
+  {
+    "title": "RGA Insurance Websites & Blogs",
+    "description": "These are websites and blogs for sub-brands under RGA Insurance. I primarily focused on blog migration, frontend enhancements, and SEO improvements.",
+    "images": ["rga_websites_01.jpg", "rga_websites_02.jpg", "rga_websites_03.jpg", "rga_websites_04.jpg", "rga_blogs_01.jpg", "rga_blogs_02.jpg"],
+    "skills": ["JavaScript (jQuery)", "CSS (Sass)", "Ruby on Rails", "WordPress"]
+  },
+  {
+    "title": "bitplay Website",
+    "description": "An official website developed for bitplay Inc. We used full screen and magnetic scrolling effect to demo the company's products clearly and smoothly. Users can also see some delightful details in each page. It's a bilingual website in English and Chinese.",
+    "images": ["bitplay_01.jpg", "bitplay_02.jpg", "bitplay_03.jpg", "bitplay_04.jpg", "bitplay_05.jpg", "bitplay_06.jpg"],
+    "skills": ["JavaScript (jQuery)", "CSS"]
+  },
+  {
+    "title": "fotoON Photo Printing Service",
+    "description": "fotoON is a platform for customizing and purchasing printed products, where customers can use its photo editor to select images, specify materials and accessories, and, upon completing their orders, will have high-quality printed wall art delivered to their address.\nIt also integrates social media features, allowing users to log in with their Facebook accounts and share their customized images with a single click.",
+    "images": ["fotoon_01.jpg", "fotoon_02.jpg", "fotoon_03.jpg", "fotoon_04.jpg", "fotoon_05.jpg", "fotoon_06.jpg"],
+    "skills": ["JavaScript (jQuery)", "ActionScript", "CSS", "CakePHP", "MySQL"]
+  },
+  {
+    "title": "CTK Website",
+    "description": "A parallax scrolling website with keyboard events for CTK Programming Service. The whole team collaborated on ideas and design, while I implemented the entire website, including animations and interactive effects.",
+    "images": ["ctk_01.jpg", "ctk_02.jpg", "ctk_03.jpg", "ctk_04.jpg", "ctk_05.jpg", "ctk_06.jpg", "ctk_07.jpg"],
+    "skills": ["JavaScript (jQuery)", "CSS"]
+  },
+  {
+    "title": "ASUS Transformer Demo APP",
+    "description": "This is an application for ASUS's All In One Transformer computer demonstration. With a lot of finger touch interactions, medias and animations written by ActionScript. This demo app was installed in every 2013 ASUS Transformer machines.",
+    "images": ["asus_01.jpg", "asus_02.jpg", "asus_03.jpg", "asus_04.jpg", "asus_05.jpg", "asus_06.jpg"],
+    "skills": ["Flash", "ActionScript"]
+  },
+  {
+    "title": "AMC e-Learning Series",
+    "description": "AMC e-Learning Series are multimedia applications written by ActionScript, which are developed for helping students learn English in a digital way. Students can read articles, watch videos, look up words in the dictionary, record and replay their pronouncing, and make a quiz in these e-learning applications.",
+    "images": ["amc_01.jpg", "amc_02.jpg", "amc_03.jpg", "amc_04.jpg"],
+    "skills": ["Flash", "ActionScript", "XML"]
   }
 ]

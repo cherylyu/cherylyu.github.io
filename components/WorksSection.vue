@@ -68,7 +68,7 @@
         <!-- Left Column -->
         <div class="w-full md:w-1/2 px-8 py-4 md:py-0 flex justify-center items-center">
           <div v-if="currentWork.images && currentWork.images.length" class="relative w-full">
-            <div class="grid grid-cols-4">
+            <div class="grid grid-cols-3 gap-4">
               <div v-for="(image, index) in currentWork.images" :key="index"
                    :class="[
                      'image-card mb-6 relative transform transition-all duration-300',
@@ -104,6 +104,14 @@
                   {{ skill }}
                 </span>
               </div>
+
+              <p v-if="currentWork.description" v-html="renderDescription(currentWork.description)" class="text-base mb-6 max-w-md mx-auto"></p>
+
+              <a v-if="currentWork.link" :href="currentWork.link" target="_blank" rel="noopener noreferrer"
+                class="inline-block px-6 py-2 bg-white text-choco-200 border-2 border-choco-200 rounded-full font-medium
+                  hover:text-choco-300 hover:border-choco-300 hover:scale-105 transition-all duration-300 transform">
+                Visit the Website ➜
+              </a>
             </div>
           </div>
           <div v-else class="text-center">
@@ -139,6 +147,11 @@ const getRotationClass = (index) => {
   } else {
     return '-rotate-3 hover:-rotate-12';
   }
+};
+
+const renderDescription = (raw) => {
+  if (!raw) return '';
+  return raw.replace(/\n/g, '<br>');
 };
 
 const isModalOpen = ref(false);
