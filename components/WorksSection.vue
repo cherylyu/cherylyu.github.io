@@ -47,8 +47,8 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-8 py-16 flex flex-col h-full">
-      <h2 class="mb-8 text-4xl md:text-5xl lg:text-6xl font-bold text-choco-300 text-center">Works</h2>
+    <div class="container mx-auto px-8 my-8 md:py-16 flex flex-col h-full">
+      <h2 class="mb-4 md:mb-8 text-4xl md:text-5xl lg:text-6xl font-bold text-choco-300 text-center">Works</h2>
 
       <button
         class="absolute top-[50%] left-3 md:left-8 z-10 p-2 -translate-y-3"
@@ -64,14 +64,14 @@
         <img src="~/assets/img/arrow-right.svg" alt="Next" class="w-6 h-6" />
       </button>
 
-      <div class="flex flex-col md:flex-row items-center justify-center flex-grow">
+      <div class="-mt-16 md:mt-0 flex flex-col md:flex-row items-center justify-center flex-grow">
         <!-- Left Column -->
         <div class="w-full md:w-1/2 px-8 py-4 md:py-0 flex justify-center items-center">
           <div v-if="currentWork.images && currentWork.images.length" class="relative w-full">
-            <div class="grid grid-cols-3 gap-4">
+            <div class="grid grid-cols-3 gap-2 md:gap-4">
               <div v-for="(image, index) in currentWork.images" :key="index"
                    :class="[
-                     'image-card mb-6 relative transform transition-all duration-300',
+                     'image-card mb-3 md:mb-6 relative transform transition-all duration-300',
                      'cursor-pointer hover:z-10 hover:scale-110',
                      getRotationClass(index)
                    ]"
@@ -90,7 +90,7 @@
         </div>
 
         <!-- Right Column -->
-        <div class="w-full md:w-1/2 px-8 py-4 md:py-0 flex justify-center items-center">
+        <div class="w-full md:w-1/2 px-4 md:px-8 py-4 md:py-0 flex justify-center items-center">
           <div v-if="works.length > 0" class="work-slide w-full">
             <div class="text-center">
               <h3 class="text-2xl md:text-3xl font-semibold mb-4">{{ currentWork.title }}</h3>
