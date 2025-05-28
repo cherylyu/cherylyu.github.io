@@ -6,7 +6,7 @@
     <div class="container mx-auto px-4 h-full flex items-center relative z-10">
       <div class="flex flex-col md:flex-row justify-center items-center py-16 md:py-0">
         <div class="flex justify-center items-center w-full md:w-2/3 md:ml-8 mb-8 md:mb-0">
-          <img src="~/assets/img/desk.png" alt="Workspace desk" class="w-4/5 md:w-full relative z-10" />
+          <img src="~/assets/img/desk.svg" alt="Workspace desk" class="w-[1126px] h-[730px] relative z-10" />
         </div>
 
         <div class="flex flex-col justify-center items-center w-full md:w-1/3 md:items-start">
