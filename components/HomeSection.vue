@@ -5,13 +5,13 @@
 
     <div class="container mx-auto px-4 h-full flex items-center relative z-10">
       <div class="flex flex-col md:flex-row justify-center items-center py-16 md:py-0">
-        <div class="flex justify-center items-center w-full md:w-2/3 md:mx-8 mb-8 md:mb-0">
+        <div class="flex justify-center items-center w-full md:w-2/3 md:ml-8 mb-8 md:mb-0">
           <img src="~/assets/img/desk.png" alt="Workspace desk" class="w-4/5 md:w-full relative z-10" />
         </div>
 
         <div class="flex flex-col justify-center items-center w-full md:w-1/3 md:items-start">
-          <h2 class="text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-bold leading-tight">
-            Hello!<br />
+          <h2 class="text-4xl md:text-5xl/[1.25] lg:text-6xl/[1.25] text-center md:text-left font-bold leading-tight md:mt-[60%]">
+            <span class="text-choco-300">Hello!</span><br />
             I'm Cheryl.
           </h2>
         </div>

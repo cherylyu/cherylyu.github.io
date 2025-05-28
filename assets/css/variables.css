@@ -13,3 +13,13 @@
   --color-mint-200: #70a794;
   --color-mint-300: #4f8d88;
 }
+
+::selection {
+  background-color: var(--color-choco-100);
+  color: #333;
+}
+
+::-moz-selection {
+  background-color: var(--color-choco-100);
+  color: #333;
+}
