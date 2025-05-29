@@ -3,7 +3,7 @@
     <NuxtRouteAnnouncer />
     <Navbar />
     <main>
-      <h1 class="hidden">Cheryl Yu's Portfolio</h1>
+      <h1 class="hidden">Meet Cheryl Yu</h1>
       <HomeSection />
       <AboutSection />
       <WorksSection />
@@ -15,10 +15,10 @@
 
 <script setup>
 useHead({
-  title: "Cheryl's Portfolio",
+  title: 'Meet Cheryl Yu',
   meta: [
     // Open Graph meta tags
-    { property: 'og:title', content: "Cheryl's Portfolio" },
+    { property: 'og:title', content: 'Meet Cheryl Yu' },
     { property: 'og:description', content: 'Welcome to Cheryl Yu\'s portfolio website!' },
     { property: 'og:image', content: '/og/home.png' },
     { property: 'og:type', content: 'website' },
@@ -26,7 +26,7 @@ useHead({
 
     // Twitter Card meta tags
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: "Cheryl's Portfolio" },
+    { name: 'twitter:title', content: 'Meet Cheryl Yu' },
     { name: 'twitter:description', content: 'Welcome to Cheryl Yu\'s portfolio website!' },
     { name: 'twitter:image', content: '/og/home.png' },
 
