@@ -12,5 +12,13 @@ export default defineNuxtConfig({
         styles: ['normal']
       }
     ]
+  },
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL ||
+        (process.env.NODE_ENV === 'production'
+          ? 'https://cherylyu.github.io'
+          : 'http://localhost:3000')
+    }
   }
 });
