@@ -2,14 +2,7 @@
   <div class="font-sans text-slate-700">
     <NuxtRouteAnnouncer />
     <Navbar />
-    <main>
-      <h1 class="hidden">Meet Cheryl Yu</h1>
-      <HomeSection />
-      <AboutSection />
-      <WorksSection />
-      <PlaygroundSection />
-      <ContactSection />
-    </main>
+    <NuxtPage />
   </div>
 </template>
 
@@ -41,7 +34,7 @@ useHead({
   ],
   link: [
     // Apple touch icon
-    { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
 
     // Favicon links
     { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
