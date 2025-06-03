@@ -33,42 +33,42 @@
               <div class="icon-wrapper group-hover:glow">
                 <img src="~/assets/img/piano.png" alt="Piano" class="w-full transition-transform duration-300 group-hover:scale-110" />
               </div>
-              <div class="tooltip">I enjoy playing the piano</div>
+              <div class="tooltip tooltip-bottom">I enjoy playing the piano</div>
             </div>
 
             <div class="absolute top-[40%] right-[-2%] w-1/5 group">
               <div class="icon-wrapper group-hover:glow">
                 <img src="~/assets/img/jogging.png" alt="Jogging" class="w-full transition-transform duration-300 group-hover:scale-110" />
               </div>
-              <div class="tooltip">I often jog or brisk walk</div>
+              <div class="tooltip tooltip-left">I often jog or brisk walk</div>
             </div>
 
             <div class="absolute bottom-[5%] right-[15%] w-1/5 group">
               <div class="icon-wrapper group-hover:glow">
                 <img src="~/assets/img/hotpot.png" alt="Hotpot" class="w-full transition-transform duration-300 group-hover:scale-110" />
               </div>
-              <div class="tooltip">I'm a fan of Asian cuisine</div>
+              <div class="tooltip tooltip-top">I'm a fan of Asian cuisine</div>
             </div>
 
             <div class="absolute bottom-[10%] left-[20%] w-1/5 group">
               <div class="icon-wrapper group-hover:glow">
                 <img src="~/assets/img/movie.png" alt="Movie" class="w-full transition-transform duration-300 group-hover:scale-110" />
               </div>
-              <div class="tooltip">I enjoy watching good movies</div>
+              <div class="tooltip tooltip-top">I enjoy watching good movies</div>
             </div>
 
             <div class="absolute top-[40%] left-[-2%] w-1/5 group">
               <div class="icon-wrapper group-hover:glow">
                 <img src="~/assets/img/bird.png" alt="Bird" class="w-full transition-transform duration-300 group-hover:scale-110" />
               </div>
-              <div class="tooltip">I'm a slave to my bird</div>
+              <div class="tooltip tooltip-right">I'm a slave to my bird</div>
             </div>
 
-            <div class="absolute top-[10%] left-[10%] w-1/5 group">
+            <div class="absolute top-[10%] left-[15%] w-1/5 group">
               <div class="icon-wrapper group-hover:glow">
                 <img src="~/assets/img/palette.png" alt="Palette" class="w-full transition-transform duration-300 group-hover:scale-110" />
               </div>
-              <div class="tooltip">I'm passionate about art and design</div>
+              <div class="tooltip tooltip-bottom">I love art and design</div>
             </div>
           </div>
         </div>
@@ -90,9 +90,6 @@
 
 .tooltip {
   position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%) scale(0);
   background-color: var(--color-choco-300);
   color: white;
   padding: 6px 12px;
@@ -103,9 +100,16 @@
   transition: all 0.3s ease;
   pointer-events: none;
   z-index: 20;
+  transform: scale(0);
 }
 
-.tooltip::after {
+.tooltip-top {
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+}
+
+.tooltip-top::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -116,9 +120,75 @@
   border-color: var(--color-choco-300) transparent transparent;
 }
 
-.group:hover .tooltip {
+.tooltip-bottom {
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+}
+
+.tooltip-bottom::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  transform: translateX(-50%);
+  border-width: 0 5px 5px;
+  border-style: solid;
+  border-color: transparent transparent var(--color-choco-300);
+}
+
+.tooltip-left {
+  top: 50%;
+  right: calc(100% + 15px);
+  transform: translateY(-50%) scale(0);
+}
+
+.tooltip-left::after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 5px 0 5px 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent var(--color-choco-300);
+}
+
+.tooltip-right {
+  top: 50%;
+  left: calc(100% + 15px);
+  transform: translateY(-50%) scale(0);
+}
+
+.tooltip-right::after {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 5px 5px 5px 0;
+  border-style: solid;
+  border-color: transparent var(--color-choco-300) transparent transparent;
+}
+
+.group:hover .tooltip-top {
   opacity: 1;
   transform: translateX(-50%) scale(1);
+}
+
+.group:hover .tooltip-bottom {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+.group:hover .tooltip-left {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
+}
+
+.group:hover .tooltip-right {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
 }
 
 .group:hover .group-hover\:glow {
