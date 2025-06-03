@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <div class="flex items-center">
-          <a href="#home" class="flex items-center gap-2">
+          <a href="#" class="flex items-center gap-2">
             <img src="~/assets/img/logo.svg" alt="Logo" class="h-8 w-8" />
             <span class="text-lg font-medium text-choco-300 hover:text-slate-700 duration-300">Cheryl Yu</span>
           </a>

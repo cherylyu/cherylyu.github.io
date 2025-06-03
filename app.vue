@@ -1,5 +1,16 @@
 <template>
   <div class="font-sans text-slate-700">
+    <!-- Overlay for Loading -->
+    <div
+      v-if="isLoading"
+      class="fixed inset-0 bg-gray-100 z-[100] flex items-center justify-center transition-opacity duration-500"
+      :class="{ 'opacity-0': fadeOut }"
+    >
+      <div class="animate-pulse-scale">
+        <img src="~/assets/img/logo.svg" alt="Loading..." class="w-12 h-12" />
+      </div>
+    </div>
+
     <NuxtRouteAnnouncer />
     <Navbar />
     <NuxtPage />
@@ -9,6 +20,31 @@
 <script setup>
 const config = useRuntimeConfig();
 const siteUrl = config.public.siteUrl;
+const isLoading = ref(true);
+const fadeOut = ref(false);
+
+onMounted(() => {
+  window.addEventListener('load', handlePageLoad);
+
+  // When onMounted is called after the page has already loaded
+  if (document.readyState === 'complete') {
+    handlePageLoad();
+  }
+});
+
+onUnmounted(() => {
+  window.removeEventListener('load', handlePageLoad);
+});
+
+function handlePageLoad() {
+  // Start the fade out animation
+  fadeOut.value = true;
+
+  // Animation ends and removes the overlay
+  setTimeout(() => {
+    isLoading.value = false;
+  }, 500);
+}
 
 useHead({
   title: 'Meet Cheryl Yu',
@@ -50,5 +86,18 @@ useHead({
 <style>
 html {
   scroll-behavior: smooth;
+}
+
+@keyframes pulse-scale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.animate-pulse-scale {
+  animation: pulse-scale 1.5s ease-in-out infinite;
 }
 </style>
