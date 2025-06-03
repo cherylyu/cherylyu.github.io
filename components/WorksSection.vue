@@ -1,5 +1,8 @@
 <template>
-  <section id="works" class="min-h-screen bg-choco-50 relative flex items-center justify-center">
+  <section id="works" class="min-h-screen bg-choco-50 relative flex items-center justify-center"
+         tabindex="0"
+         ref="sectionRef"
+         @keydown="handleSectionKeydown">
     <!-- Image Popup Window -->
     <div v-if="isModalOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 transition-opacity duration-300"
          :class="{'opacity-0': !modalVisible, 'opacity-100': modalVisible}"
@@ -159,6 +162,7 @@ const modalVisible = ref(false);
 const currentImage = ref(null);
 const currentImageIndex = ref(0);
 const modalRef = ref(null);
+const sectionRef = ref(null);
 
 const currentWorkImages = computed(() => {
   return currentWork.value.images || [];
@@ -193,6 +197,9 @@ const closeImageModal = () => {
     isModalOpen.value = false;
     // Restore page scrolling
     document.body.style.overflow = 'auto';
+
+    // Set focus on the section element after closing the modal
+    if (sectionRef.value) sectionRef.value.focus();
   }, 300);
 };
 
@@ -207,12 +214,26 @@ const prevModalImage = () => {
 };
 
 const handleKeydown = (event) => {
-  if (event.key === 'ArrowRight') {
-    nextModalImage();
-  } else if (event.key === 'ArrowLeft') {
-    prevModalImage();
-  } else if (event.key === 'Escape') {
-    closeImageModal();
+  if (isModalOpen.value) {
+    if (event.key === 'ArrowRight') {
+      nextModalImage();
+    } else if (event.key === 'ArrowLeft') {
+      prevModalImage();
+    } else if (event.key === 'Escape') {
+      closeImageModal();
+    }
+  }
+};
+
+const handleSectionKeydown = (event) => {
+  if (!isModalOpen.value) {
+    if (event.key === 'ArrowRight') {
+      nextSlide();
+      event.preventDefault();
+    } else if (event.key === 'ArrowLeft') {
+      prevSlide();
+      event.preventDefault();
+    }
   }
 };
 </script>
