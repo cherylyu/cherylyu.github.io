@@ -1,5 +1,5 @@
 <template>
-  <section id="works" class="h-screen bg-choco-50 relative overflow-hidden">
+  <section id="works" class="min-h-screen bg-choco-50 relative flex items-center justify-center">
     <!-- Image Popup Window -->
     <div v-if="isModalOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 transition-opacity duration-300"
          :class="{'opacity-0': !modalVisible, 'opacity-100': modalVisible}"
@@ -47,7 +47,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-8 my-8 md:py-16 flex flex-col h-full">
+    <div class="container mx-auto p-8 md:py-16 flex flex-col">
       <h2 class="mb-4 md:mb-8 text-4xl md:text-5xl lg:text-6xl font-bold text-choco-300 text-center">Works</h2>
 
       <button
@@ -64,7 +64,7 @@
         <img src="~/assets/img/arrow-right.svg" alt="Next" class="w-6 h-6" />
       </button>
 
-      <div class="-mt-16 md:mt-0 flex flex-col md:flex-row items-center justify-center flex-grow">
+      <div class="flex flex-col md:flex-row items-center justify-center flex-grow">
         <!-- Left Column -->
         <div class="w-full md:w-1/2 px-8 py-4 md:py-0 flex justify-center items-center">
           <div v-if="currentWork.images && currentWork.images.length" class="relative w-full">

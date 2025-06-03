@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="min-h-screen bg-gray-100 flex flex-col relative">
     <!-- Dark Brown Block -->
-    <div class="relative bg-choco-300 h-[45vh] md:h-[33vh] flex items-center">
+    <div class="relative bg-choco-300 h-[33vh] flex items-center">
       <img src="~/assets/img/choco-wave.svg" alt="" class="absolute top-0 left-0 w-full -translate-y-1/2" />
 
       <div class="container mx-auto relative">
@@ -15,15 +15,15 @@
     <div class="container mx-auto px-4 py-20 flex flex-col flex-grow">
       <p class="my-4 text-xl md:text-2xl text-center text-choco-300">Learn more about me through other channels!</p>
       <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 flex-grow">
-        <a href="https://linkedin.com/in/cherylyu26" target="_blank" rel="noopener noreferrer" class="w-1/5 lg:max-w-[160px] flex items-center justify-center group rounded-lg transition-all rotate-12 animate-sway-1">
+        <a href="https://linkedin.com/in/cherylyu26" target="_blank" rel="noopener noreferrer" class="w-1/4 lg:max-w-[160px] flex items-center justify-center group rounded-lg transition-all rotate-12 animate-sway-1">
           <img src="~/assets/img/hexagon-linkedin.svg" alt="LinkedIn" class="group-hover:scale-110 transition-transform" />
         </a>
 
-        <a href="https://github.com/cherylyu" target="_blank" rel="noopener noreferrer" class="w-1/5 lg:max-w-[160px] flex items-center justify-center group rounded-lg transition-all -rotate-3 animate-sway-2">
+        <a href="https://github.com/cherylyu" target="_blank" rel="noopener noreferrer" class="w-1/4 lg:max-w-[160px] flex items-center justify-center group rounded-lg transition-all -rotate-3 animate-sway-2">
           <img src="~/assets/img/hexagon-github.svg" alt="GitHub" class="group-hover:scale-110 transition-transform" />
         </a>
 
-        <a href="mailto:cherylworkshop@gmail.com" class="w-1/5 lg:max-w-[160px] flex items-center justify-center group rounded-lg transition-all rotate-6 animate-sway-3">
+        <a href="mailto:cherylworkshop@gmail.com" class="w-1/4 lg:max-w-[160px] flex items-center justify-center group rounded-lg transition-all rotate-6 animate-sway-3">
           <img src="~/assets/img/hexagon-email.svg" alt="Email" class="group-hover:scale-110 transition-transform" />
         </a>
       </div>
