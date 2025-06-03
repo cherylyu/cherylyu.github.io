@@ -1,5 +1,5 @@
 <template>
-  <section id="works" class="min-h-screen bg-choco-50 relative flex items-center justify-center"
+  <section id="works" class="min-h-screen bg-choco-50 relative"
          tabindex="0"
          ref="sectionRef"
          @keydown="handleSectionKeydown">
@@ -51,7 +51,21 @@
     </div>
 
     <div class="container mx-auto p-8 md:py-16 flex flex-col">
-      <h2 class="mb-4 md:mb-8 text-4xl md:text-5xl lg:text-6xl font-bold text-choco-300 text-center">Works</h2>
+      <h2 class="mb-4 text-4xl md:text-5xl lg:text-6xl font-bold text-choco-300 text-center">Works</h2>
+
+      <!-- Nav Dots -->
+      <div class="flex justify-center items-center space-x-2 mb-6 md:mb-8">
+        <button
+          v-for="(work, index) in works"
+          :key="index"
+          @click="currentIndex = index"
+          :class="[
+            'w-2 h-2 rounded-full transition-all duration-300',
+            currentIndex === index ? 'bg-white border-choco-300 transform scale-125' : 'bg-choco-300'
+          ]"
+          :aria-label="`View ${work.title}`"
+        ></button>
+      </div>
 
       <button
         class="absolute top-[50%] left-3 md:left-8 z-10 p-2 -translate-y-3"
