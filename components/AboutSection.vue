@@ -18,7 +18,7 @@
               With a background in visual design and a passion for UI/UX, I specialize in frontend development.
             </p>
             <p class="mb-4">
-              Additionally, I have experience working as a backend (payment) QA engineer.
+              I'm also interested in and have experience with full-stack development. Testing is another area of interest for me, and I've previously worked as a backend (payment) QA engineer.
             </p>
           </div>
         </div>

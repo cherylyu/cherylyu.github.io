@@ -25,7 +25,7 @@
           <a href="#home" :class="['px-3 py-1 rounded-md transform transition-all duration-300', activeSection === 'home' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Home</a>
           <a href="#about" :class="['px-3 py-1 rounded-md transform transition-all duration-300', activeSection === 'about' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">About</a>
           <a href="#works" :class="['px-3 py-1 rounded-md transform transition-all duration-300', activeSection === 'works' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Works</a>
-          <a href="#playground" :class="['px-3 py-1 rounded-md transform transition-all duration-300 hidden', activeSection === 'playground' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Playground</a>
+          <a href="#playground" :class="['px-3 py-1 rounded-md transform transition-all duration-300', activeSection === 'playground' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Playground</a>
           <a href="#contact" :class="['px-3 py-1 rounded-md transform transition-all duration-300', activeSection === 'contact' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Contact</a>
         </div>
       </div>
@@ -36,7 +36,7 @@
           <a href="#home" @click="isMobileMenuOpen = false" :class="['block px-3 py-2 rounded-md text-base font-medium transform transition-all duration-300', activeSection === 'home' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Home</a>
           <a href="#about" @click="isMobileMenuOpen = false" :class="['block px-3 py-2 rounded-md text-base font-medium transform transition-all duration-300', activeSection === 'about' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">About</a>
           <a href="#works" @click="isMobileMenuOpen = false" :class="['block px-3 py-2 rounded-md text-base font-medium transform transition-all duration-300', activeSection === 'works' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Works</a>
-          <a href="#playground" @click="isMobileMenuOpen = false" :class="['block px-3 py-2 rounded-md text-base font-medium transform transition-all duration-300 hidden', activeSection === 'playground' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Playground</a>
+          <a href="#playground" @click="isMobileMenuOpen = false" :class="['block px-3 py-2 rounded-md text-base font-medium transform transition-all duration-300', activeSection === 'playground' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Playground</a>
           <a href="#contact" @click="isMobileMenuOpen = false" :class="['block px-3 py-2 rounded-md text-base font-medium transform transition-all duration-300', activeSection === 'contact' ? 'bg-gray-200 text-slate-900' : 'text-slate-700 hover:bg-gray-100']">Contact</a>
         </div>
       </div>

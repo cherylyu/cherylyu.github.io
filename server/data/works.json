@@ -19,20 +19,20 @@
     "link": "https://s3.ap-northeast-1.amazonaws.com/cherylyu.com/index.html"
   },
   {
-    "title": "RGA Online & In-house Quotation Systems V2",
-    "description": "These are UK-based property insurance quotation systems with robust features, supported by sophisticated calculation logic. It adopts a modern front-end and back-end separation architecture, with the front-end built as a Single Page Application (SPA) using Angular. I was responsible for the front-end architecture and UI/UX design.",
+    "title": "RGA Online & In-house Quotation System V2",
+    "description": "This is a UK-based property insurance quotation system with robust features, supported by sophisticated calculation logic. It adopts a front-end and back-end separation architecture, with the front-end built as a Single Page Application (SPA) using Angular. I was responsible for the front-end architecture and UI/UX design.",
     "images": ["raam_ng_01.jpg", "raam_ng_02.jpg", "raam_ng_03.jpg", "raam_ng_04.jpg", "raam_ng_05.jpg", "raam_ng_06.jpg", "raam_ng_07.jpg", "raam_ng_08.jpg"],
     "skills": ["JavaScript (Angular)", "CSS (Sass)", "npm", "Jasmine"]
   },
   {
-    "title": "RGA Online & In-house Quotation Systems V1",
-    "description": "These are UK-based property insurance quotation systems designed to serve both general users and insurance brokers. It offers robust features, including various types of policy calculations, broker management, and report generation, supported by sophisticated calculation logic.",
+    "title": "RGA Online & In-house Quotation System V1",
+    "description": "This is a UK-based property insurance quotation system designed to serve both general users and insurance brokers. It offers robust features, including various types of policy calculations, broker management, and report generation, supported by sophisticated calculation logic.",
     "images": ["raam_ror_01.jpg", "raam_ror_02.jpg", "raam_ror_03.jpg", "raam_ror_04.jpg", "raam_ror_05.jpg", "raam_ror_06.jpg", "raam_ror_07.jpg", "raam_ror_08.jpg"],
     "skills": ["CoffeeScript (jQuery)", "CSS (Sass)", "Ruby on Rails", "PostgreSQL"]
   },
   {
     "title": "RGA Insurance Websites & Blogs",
-    "description": "These are websites and blogs for sub-brands under RGA Insurance. I primarily focused on blog migration, frontend enhancements, and SEO improvements.",
+    "description": "These are websites and blogs for sub-brands under RGA Insurance Group. I primarily focused on blog migration, frontend enhancements, and SEO improvements.",
     "images": ["rga_websites_01.jpg", "rga_websites_02.jpg", "rga_websites_03.jpg", "rga_websites_04.jpg", "rga_blogs_01.jpg", "rga_blogs_02.jpg"],
     "skills": ["JavaScript (jQuery)", "CSS (Sass)", "Ruby on Rails", "WordPress"]
   },
@@ -44,7 +44,7 @@
   },
   {
     "title": "fotoON Photo Printing Service",
-    "description": "fotoON is a platform for customizing and purchasing printed products, where customers can use its photo editor to select images, specify materials and accessories, and, upon completing their orders, will have high-quality printed wall art delivered to their address.\nIt also integrates social media features, allowing users to log in with their Facebook accounts and share their customized images with a single click.",
+    "description": "fotoON is a platform for customizing and purchasing printed products, where customers can use its photo editor to select images, specify materials and accessories, and, upon completing their orders, will have high-quality printed wall art delivered to their address.\nIt also integrates social media features, allowing users to register with their Facebook account and share their customized images on Facebook with a single click.",
     "images": ["fotoon_01.jpg", "fotoon_02.jpg", "fotoon_03.jpg", "fotoon_04.jpg", "fotoon_05.jpg", "fotoon_06.jpg"],
     "skills": ["JavaScript (jQuery)", "ActionScript", "CSS", "CakePHP", "MySQL"]
   },

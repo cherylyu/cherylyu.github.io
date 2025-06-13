@@ -112,11 +112,11 @@
             <div class="text-center">
               <h3 class="text-2xl md:text-3xl font-semibold mb-4">{{ currentWork.title }}</h3>
 
-              <div class="flex flex-wrap justify-center gap-2 mb-4 cursor-default" v-if="currentWork.skills && currentWork.skills.length">
+              <div class="flex flex-wrap justify-center gap-2 mb-4" v-if="currentWork.skills && currentWork.skills.length">
                 <span
                   v-for="skill in currentWork.skills"
                   :key="skill"
-                  class="px-3 py-1 bg-choco-100 text-choco-300 rounded-full text-sm font-medium transition-transform hover:scale-105"
+                  class="px-3 py-1 bg-choco-100 text-choco-300 rounded-full text-sm font-medium"
                 >
                   {{ skill }}
                 </span>
