@@ -52,7 +52,7 @@ useHead({
     // Open Graph meta tags
     { property: 'og:title', content: 'Meet Cheryl Yu' },
     { property: 'og:description', content: 'Welcome to Cheryl Yu\'s portfolio website!' },
-    { property: 'og:image', content: `${siteUrl}/og/home.png` },
+    { property: 'og:image', content: `${siteUrl}/images/og-image.png` },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: siteUrl },
 
@@ -60,7 +60,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Meet Cheryl Yu' },
     { name: 'twitter:description', content: 'Welcome to Cheryl Yu\'s portfolio website!' },
-    { name: 'twitter:image', content: `${siteUrl}/og/home.png` },
+    { name: 'twitter:image', content: `${siteUrl}/images/og-image.png` },
 
     // Basic meta tags
     { name: 'author', content: 'Cheryl Yu' },

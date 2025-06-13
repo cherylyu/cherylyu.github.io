@@ -25,6 +25,10 @@ const config: Config = {
           100: 'var(--color-mint-100)',
           200: 'var(--color-mint-200)',
           300: 'var(--color-mint-300)'
+        },
+        thai: {
+          200: 'var(--color-thai-200)',
+          300: 'var(--color-thai-300)'
         }
       },
       keyframes: {

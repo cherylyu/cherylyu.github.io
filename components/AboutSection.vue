@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="min-h-screen bg-gray-100 relative overflow-hidden flex items-center justify-center">
-    <img src="~/assets/img/choco-curve-top-right.svg" alt="" class="absolute top-0 right-0 w-1/2 md:w-1/4 z-0" />
+    <img src="~/assets/img/choco-curve-top-right.svg" alt="" class="absolute top-0 -right-[5px] lg:-right-[9px] w-1/2 md:w-1/4 z-0" />
 
     <div class="container mx-auto h-full px-4 relative z-10 flex items-center">
       <div class="flex flex-col md:flex-row items-center justify-center w-full pt-16 pb-8 md:py-0">

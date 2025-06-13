@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center bg-choco-50 p-4 relative overflow-hidden">
-    <img src="~/assets/img/white-curve-top-left.svg" alt="" class="absolute top-0 left-0 w-1/3 md:w-1/4 z-0" />
-    <img src="~/assets/img/white-curve-bottom-right.svg" alt="" class="absolute bottom-0 right-0 w-1/3 md:w-1/4 z-0" />
+    <img src="~/assets/img/white-curve-top-left.svg" alt="" class="absolute top-0 left-0 w-1/2 md:w-1/4 z-0" />
+    <img src="~/assets/img/white-curve-bottom-right.svg" alt="" class="absolute bottom-0 right-0 w-1/2 md:w-1/4 z-0" />
 
     <div class="text-center max-w-lg relative z-10">
       <h1 class="text-8xl md:text-9xl font-bold text-choco-300 mb-6">{{ errorInfo.statusCode }}</h1>

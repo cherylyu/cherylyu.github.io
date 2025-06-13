@@ -5,10 +5,10 @@
       <img src="~/assets/img/choco-wave.svg" alt="" class="absolute top-0 left-0 w-full -translate-y-1/2" />
 
       <!-- Deco Shapes -->
-      <div class="absolute w-20 h-20 bg-white opacity-30 rounded-lg left-[15%] bottom-[20%] animate-float-medium"></div>
-      <div class="absolute w-24 h-24 bg-white opacity-20 rounded-full left-[25%] top-[15%] animate-float-fast"></div>
-      <div class="absolute w-32 h-32 bg-white opacity-10 rounded-lg right-[25%] top-[20%] animate-float-slow"></div>
-      <div class="absolute w-16 h-16 bg-white opacity-15 rounded-full right-[15%] bottom-[15%] animate-float-medium"></div>
+      <div class="absolute w-20 h-20 bg-choco-50 opacity-30 rounded-lg left-[15%] bottom-[20%] animate-float-medium"></div>
+      <div class="absolute w-24 h-24 bg-thai-200 opacity-50 rounded-full left-[25%] top-[15%] animate-float-fast"></div>
+      <div class="absolute w-32 h-32 bg-choco-50 opacity-50 rounded-lg right-[25%] top-[20%] animate-float-slow"></div>
+      <div class="absolute w-16 h-16 bg-thai-200 opacity-70 rounded-full right-[15%] bottom-[15%] animate-float-medium"></div>
 
       <div class="container mx-auto relative">
         <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-choco-50 text-center">Contact</h2>
@@ -41,7 +41,7 @@
         <div class="flex flex-col md:flex-row md:justify-between items-center md:items-start text-center md:text-left">
           <p>&copy; {{ new Date().getFullYear() }} Cheryl Yu. All rights reserved.</p>
           <p class="text-gray-400 mt-2 md:mt-0">
-            Some illustrations are sourced from <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" class="underline">Freepik</a>
+            Some illustrations are sourced from <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" class="underline">Freepik</a>.
           </p>
         </div>
       </div>

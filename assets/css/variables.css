@@ -12,14 +12,17 @@
   --color-mint-100: #cce3d9;
   --color-mint-200: #70a794;
   --color-mint-300: #4f8d88;
+
+  --color-thai-200: #e29376;
+  --color-thai-300: #a96c4a;
 }
 
 ::selection {
-  background-color: var(--color-choco-100);
-  color: #333;
+  background-color: var(--color-thai-200);
+  color: #fff;
 }
 
 ::-moz-selection {
-  background-color: var(--color-choco-100);
-  color: #333;
+  background-color: var(--color-thai-200);
+  color: #fff;
 }
